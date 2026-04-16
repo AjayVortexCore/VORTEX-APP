@@ -5,7 +5,8 @@ package.domain = org.ajay
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,requests,urllib3
+requirements = 
+python3,kivy==2.3.0,kivymd,requests,urllib3
 android.permissions = INTERNET, RECORD_AUDIO
 android.api = 31
 p4a.branch = master
