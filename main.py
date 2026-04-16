@@ -20,7 +20,7 @@ from kivymd.uix.toolbar import MDTopAppBar
 # --- CONFIGURATION ---
 APP_NAME = "VORTEX-8"
 PIN_REQUIRED = "VIJAY"
-API_KEY = "YOUR_API_KEY_HERE" 
+API_KEY =  "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"
 OWNER = "Ajay"
 MEMORY_FILE = "vortex8_neural_data.json"
 APP_RUNNING = False 
