@@ -7,6 +7,6 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
 requirements = python3,kivy,kivymd,requests
 android.permissions = INTERNET, RECORD_AUDIO
-android.api = 33
+android.api = 31
 android.minapi = 21
 android.archs = arm64-v8a
