@@ -1,18 +1,16 @@
-name: Build VORTEX-8 APK
-on: [push, pull_request]
+name: Build APK
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build with Buildozer
-        uses: ArtemSerebrenninkov/buildozer-action@v1
+        uses: Niklas-Scherer/buildozer-action@v1
         with:
-          workdir: .
           buildozer_version: stable
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
           name: Vortex8-APK
           path: bin/*.apk
-          
