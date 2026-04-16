@@ -8,6 +8,7 @@ version = 1.0
 requirements = python3,kivy==2.3.0,kivymd==1.2.0,requests,urllib3
 android.permissions = INTERNET, RECORD_AUDIO
 android.api = 31
+p4a.branch = master
+p4a.bootstrap = sdl2
 android.minapi = 21
 android.archs = arm64-v8a
-p4a.branch = master
