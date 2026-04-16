@@ -10,8 +10,4 @@ jobs:
         with:
           workdir: .
           buildozer_version: stable
-      - name: Upload APK
-        uses: actions/upload-artifact@v3
-        with:
-          name: Vortex8-APK
-          path: bin/*.apk
+          
