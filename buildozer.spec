@@ -5,8 +5,7 @@ package.domain = org.ajay
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,requests,urllib3,certifi,charset-normalizer,idna
-orientation = portrait
+requirements = python3,kivy,kivymd,requests
 android.permissions = INTERNET, RECORD_AUDIO
 android.api = 33
 android.minapi = 21
